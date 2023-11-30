@@ -19,6 +19,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,3 +75,56 @@ header {
     line-height: 28.9px;
     font-weight: 400;
 }
+
+/* MENU SECTION */
+
+.menu {
+    display: flex;
+    margin-top: 40px;
+}
+
+.menu-box {
+    width: 25vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-box h2 {
+    font-size: 46px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.m-box1 {
+    background-image: url("img/45150-testoviny-prev.jpg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.m-box2 {
+    background-image: url("img/45151-pizza-prev.jpg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.m-box3 {
+    background-image: url("img/45153-alcoholic-bar-beverage-blur-338713-prev.jpg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.m-box4 {
+    background-image: url("img/45152-JL_2-prev.jpg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
