@@ -127,4 +127,59 @@ header {
     background-size: cover;
 }
 
+/* REVIEW SECTION */
 
+.review {
+    background-color: #F2F2EC;
+}
+
+.review h2 {
+    font-size: 32px;
+    line-height: 36.8px;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+    padding: 45px;
+}
+
+.review-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 60px;
+}
+
+.review-box {
+    width: 27vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 60px;
+    background-color: #fff;
+    box-shadow: 0 0 15px gray;
+}
+
+
+.fa-quote-left {
+    font-size: 22px;
+    line-height: 24px;
+    color: #616161;
+}
+
+.review-box h3 {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #616161;
+}
+
+.review-box p {
+    font-size: 16px;
+    line-height: 28.9px;
+    font-weight: 400;
+    text-align: center;
+    color: #898787;
+}
